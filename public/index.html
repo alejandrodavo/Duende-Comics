@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>El Duende Comics</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>El Duende Comics</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#agregar">Agregar Cómic</a></li>
+      <li><a href="#lista">Lista de Cómics</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="agregar">
+      <h2>Agregar Artículo</h2>
+      <form id="itemForm">
+        <input type="text" name="name" placeholder="Nombre del artículo" required>
+        <input type="number" name="price" placeholder="Precio" required>
+        <button type="submit">Agregar Artículo</button>
+      </form>
+    </section>
+
+    <section id="lista">
+        <h2>Lista de Cómics</h2>
+        <div id="itemsList" class="items-list">
+          <div class="item">
+            <img src="https://www.universal-comics.com/imagenes/poridentidad?identidad=29ac576b-4c6a-49b7-a131-3ff2b4e2f10e&ancho=900&alto=" alt="Teléfono móvil" class="item-image">
+            <h3 class="item-name">Teléfono móvil</h3>
+            <p class="item-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed viverra justo et lectus ultricies convallis.</p>
+            <p class="item-price">$499</p>
+          </div>
+          <div class="item">
+            <img src="https://www.universal-comics.com/imagenes/poridentidad?identidad=29ac576b-4c6a-49b7-a131-3ff2b4e2f10e&ancho=900&alto=" alt="Teléfono móvil" class="item-image">
+            <h3 class="item-name">Teléfono móvil</h3>
+            <p class="item-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed viverra justo et lectus ultricies convallis.</p>
+            <p class="item-price">$499</p>
+          </div>
+        </div>
+      </section>
+
+    <section id="contacto">
+      <h2>Contacto</h2>
+      <p>Puedes contactarnos en:</p>
+      <ul>
+        <li>Email: contacto@compraventa.com</li>
+        <li>Teléfono: 123-456-7890</li>
+      </ul>
+    </section>
+  </main>
+
+  <script src="scripts.js"></script>
+</body>
+</html>

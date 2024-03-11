@@ -1,0 +1,131 @@
+/* Reset de estilos */
+body, h1, h2, p, ul, li, form, input, button {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2; /* Fondo gris claro */
+    color: #333; /* Texto oscuro */
+    line-height: 1.6;
+  }
+  
+  header {
+    background-color: #98fb98; /* Verde claro */
+    padding: 20px;
+    text-align: center;
+  }
+  
+  nav {
+    background-color: #f8f8f8; /* Fondo gris claro */
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style-type: none;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #333; /* Texto oscuro */
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    background-color: #9370db; /* Lila oscuro */
+    color: white; /* Texto blanco */
+  }
+  
+  main {
+    margin: 20px;
+  }
+  
+  section {
+    background-color: #fff; /* Fondo blanco */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    padding: 20px;
+    margin-bottom: 30px;
+  }
+  
+  section h2 {
+    color: #9370db; /* Lila oscuro */
+    margin-bottom: 10px;
+  }
+  
+  section p {
+    color: #666; /* Texto gris */
+    margin-bottom: 20px;
+  }
+  
+  form {
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  button {
+    margin-right: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc; /* Borde gris */
+  }
+  
+  button {
+    background-color: #9370db; /* Lila oscuro */
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #8a2be2; /* Lila más oscuro */
+  }
+  
+
+
+  .items-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .item {
+    width: calc(33.33% - 20px); /* Ancho del artículo (3 columnas) */
+    background-color: #fff; /* Fondo blanco */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center; /* Centra el contenido */
+  }
+  
+  .item img {
+    width: 100%; /* Ajusta el tamaño de la imagen al contenedor */
+    border-radius: 8px 8px 0 0; /* Bordes redondeados solo arriba */
+    margin-bottom: 10px;
+    height: 400px;
+    width: 250px;
+  }
+  
+  .item h3 {
+    color: #333; /* Texto oscuro */
+    margin-bottom: 10px;
+  }
+  
+  .item p {
+    color: #666; /* Texto gris */
+  }
+  
+  .item-price {
+    color: #9370db; /* Lila oscuro */
+  }
